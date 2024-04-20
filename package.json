@@ -1,8 +1,9 @@
 {
   "name": "typeorm-storage-umzug",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Umzug's SequelizeStorage but for TypeORM.",
-  "main": "typeorm-storage.ts",
+  "main": "./dist/typeorm-storage.js",
+  "types": "./dist/typeorm-storage.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/G0maa/typeorm-storage-umzug.git"
