@@ -20,6 +20,6 @@
     "umzug": "^3.8.0"
   },
   "dependencies": {
-    "typeorm-storage-umzug": "^0.0.1"
+    "typeorm-storage-umzug": "^0.0.2"
   }
 }

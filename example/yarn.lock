@@ -877,10 +877,13 @@ type-fest@^4.0.0:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.15.0.tgz#21da206b89c15774cc718c4f2d693e13a1a14a43"
   integrity sha512-tB9lu0pQpX5KJq54g+oHOLumOx+pMep4RaM6liXh2PKmVRFF+/vAtUP0ZaJ0kOySfVNjF6doBWPHhBhISKdlIA==
 
-typeorm-storage-umzug@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/typeorm-storage-umzug/-/typeorm-storage-umzug-0.0.1.tgz#93a15d6ed0ac39210607472195b51e3bc6ef5918"
-  integrity sha512-FipwcayeXU0XpeMjLvPJdCyIAARXX0+kyMLkLQA9V5JUA5vdREUvrzgODmq8dE5KoBBbsi/0jowRHsqnqXhIRw==
+typeorm-storage-umzug@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/typeorm-storage-umzug/-/typeorm-storage-umzug-0.0.2.tgz#7b2d98d6d61a7650db9d8456fc27b43db949659a"
+  integrity sha512-LQU8mnzDuJdjribjeD0ruFqiweSDvWU5XErhXXSe0B7UxMSJzDIq/xoamQWfi7bXZOOIHK6IQ6zaBa8trsLJwg==
+  dependencies:
+    typeorm "^0.3.20"
+    umzug "^3.8.0"
 
 typeorm@^0.3.20:
   version "0.3.20"

@@ -12,6 +12,7 @@
 
 1. Rename `.env-sample` to `.env`
 2. run `docker compose up`
+3. `yarn install`
 
 ```bash
 # To run migrations
