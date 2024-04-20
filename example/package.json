@@ -1,0 +1,25 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "index.js",
+  "scripts": {
+    "db:migrate": "node umzug/migrate",
+    "db:seed": "node umzug/seed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "g0maa",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "pg": "^8.11.5",
+    "ts-node": "^10.9.2",
+    "typeorm": "^0.3.20",
+    "typescript": "^5.4.5",
+    "umzug": "^3.8.0"
+  },
+  "dependencies": {
+    "typeorm-storage-umzug": "^0.0.1"
+  }
+}

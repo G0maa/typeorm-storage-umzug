@@ -1,6 +1,6 @@
 {
   "name": "typeorm-storage-umzug",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Umzug's SequelizeStorage but for TypeORM.",
   "main": "./dist/typeorm-storage.js",
   "types": "./dist/typeorm-storage.d.ts",
