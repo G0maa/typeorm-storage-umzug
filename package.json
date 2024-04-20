@@ -1,0 +1,13 @@
+{
+  "name": "typeorm-storage-umzug",
+  "version": "0.0.0",
+  "description": "Umzug's SequelizeStorage but for TypeORM.",
+  "main": "typeorm-storage.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "author": "g0maa",
+  "license": "MIT",
+  "devDependencies": {}
+}
