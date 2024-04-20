@@ -4,10 +4,17 @@
   "description": "Umzug's SequelizeStorage but for TypeORM.",
   "main": "typeorm-storage.ts",
   "scripts": {
+    "format": "prettier -c .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky"
   },
   "author": "g0maa",
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {
+    "@commitlint/cli": "^19.2.2",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@types/node": "^20.12.7",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5"
+  }
 }
