@@ -1,10 +1,9 @@
-import {
+import { Table } from 'typeorm';
+import type {
   BaseEntity,
   DataSource,
   QueryBuilder,
   QueryRunner,
-  Repository,
-  Table,
 } from 'typeorm';
 import type { UmzugStorage } from 'umzug';
 
@@ -21,7 +20,7 @@ type TypeORMStorageConstructorOptions = {
    */
   readonly tableName?: string;
 
-  // Implemented in sequelize.ts but not in typeorm.ts:
+  // Implemented in SequelizeStorage but not in TypeORMStorage:
   // model, modelName, schema, columnName, columnType, timestamps.
 };
 

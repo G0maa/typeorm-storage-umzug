@@ -21,12 +21,14 @@
     "@types/node": "^20.12.7",
     "husky": "^9.0.11",
     "prettier": "^3.2.5",
-    "typeorm": "^0.3.20",
-    "typescript": "^5.4.5",
-    "umzug": "^3.8.0"
+    "typescript": "^5.4.5"
   },
   "files": [
     "dist",
     "readme.md"
-  ]
+  ],
+  "dependencies": {
+    "typeorm": "^0.3.20",
+    "umzug": "^3.8.0"
+  }
 }

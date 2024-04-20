@@ -33,8 +33,6 @@ export type Migration = typeof migrator._types.migration;
 
 # TODOs
 
-- Unordered.
-
-1. revise `.tsconfig` I copied the one at `nestjs`.
+1. get rid of many `.initalize` `.destroy`.
 2. make package not depend on `TypeORM` or `Umzug`.
-3. get rid of many `.initalize` `.destroy`.
+3. revise `.tsconfig` I copied the one at `nestjs`.
